@@ -1,4 +1,15 @@
+
 ## Week 1 Assignment
+
+
+## List of Assignments
+- [Assignment 1](#assignment-1)
+- [Assignment 2](#assignment-2)
+- [Assignment 3](#assignment-3)
+
+
+
+## Assignment 1
 
 ### What is a protocol stack, and how is it used in web development?
 
@@ -90,3 +101,199 @@ As a web devloper we can do the following things:-
 7. Image Optimization: Use descriptive alt tags for images to improve accessibility and help search engines understand the image content.
 
 8. Secure Website: Implement HTTPS to provide a secure browsing experience for users. Google considers HTTPS as a ranking signal.
+
+
+# Assignment 2
+HTML Fundamentals
+
+## List of Assignments
+
+- [Poem Webpage](#poem)
+- [Hometown Webpage](#hometown-webpage)
+- [Musician Fan Webpage](#Musician-Fan-Webpage)
+- [Tables](#tables)
+- [News Article Webpage](#News-Article-Webpage)
+
+## Poem Webpage
+
+<pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"I'm Nobody!" by Emily Dickinson</title>
+</head>
+<body>
+    <h1>I'm Nobody! Who are you?</h1>
+    <!-- First stanza -->
+    <p>
+        I'm Nobody! Who are you?<br>
+        Are you - Nobody - Too?<br>
+        Then there's a pair of us!<br>
+        Don't tell! They'd banish us - you know!
+    </p>
+
+    <!-- Second stanza -->
+    <p>
+        How dreary - to be - Somebody!<br>
+        How public - like a Frog -<br>
+        To tell one's name - the livelong June -<br>
+        To an admiring Bog!
+    </p>
+
+    <!-- Author and date -->
+    <p>
+        By <em>Emily Dickinson</em> (1891)
+    </p>
+</body>
+</html>
+
+</pre>
+
+
+## Hometown Webpage
+<pre>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pune</title>
+</head>
+<body>
+  <h1>Pune</h1>
+
+  <h2>Location</h2>
+  <!-- Location of Pune, India -->
+  <p>Pune is a city in the western Indian state of Maharashtra. It is the second largest city in the state after Mumbai.</p>
+
+  <h2>About</h2>
+  <p>We live in area called Katraj which is know for The Rajiv Gandhi Zoological Park, commonly known as the Rajiv Gandhi Zoo or Katraj Zoo</p>
+
+  <h3>Weather</h3>
+  <!-- Weather in Pune -->
+  <p>Pune has a pleasant climate, with mild winters and warm summers. The average temperature in January is 20 degrees Celsius (68 degrees Fahrenheit), and the average temperature in July is 28 degrees Celsius (82 degrees Fahrenheit).</p>
+
+  <h3>Population</h3>
+  <!-- Population of Pune -->
+  <p>The population of Pune is about 10+ million people. It is the seventh most populous city in India.</p>
+
+  <h3>Sports</h3>
+  <!-- Sports teams in Pune -->
+  <p>Pune is home to many sports teams, including the Pune Warriors India (cricket now discontinued) , the Pune City FC (football), and the Puneri Paltan (kabaddi).</p>
+
+  <h2>Things To Do</h2>
+  <!-- Things to do in Pune -->
+  <ul>
+    <li>Visit the historic landmarks, such as the Shaniwar Wada and the Aga Khan Palace.</li>
+    <li>Explore the beautiful parks and nature reserves, such as the Osho Ashram and the Vipassana International Academy.</li>
+    <li>Try out the local cuisine and restaurants, such as the Misal Pav and the Pav Bhaji.</li>
+  </ul>
+</body>
+</html>
+</pre>
+
+
+## Musician Fan Webpage
+<pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvin Harris - DJ Musician</title>
+</head>
+<body>
+    <!-- Header with musician's name -->
+    <header>
+        <h1>Calvin Harris</h1>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- 1st paragraph: Background information -->
+        <p>Calvin Harris, born Adam Richard Wiles on January 17, 1984, is a renowned Scottish DJ, record producer, singer, and songwriter.
+            He gained international fame for his electronic and dance music tracks and has consistently topped the charts with his infectious beats and innovative soundscapes.
+            His contributions to the music industry have earned him numerous awards and accolades, making him one of the most influential figures in contemporary music.</p>
+
+        <!-- 2nd paragraph: Link to Calvin Harris website -->
+        <p>For more information about Calvin Harris and his music, you can visit his official website <a href="https://www.calvinharris.com/" target="_blank">here</a>.</p>
+
+        <!-- Page creator -->
+        <p>Webpage created by <em>AKSHAY SHINDE<em> </p>
+    </main>
+</body>
+</html>
+
+</pre>
+
+## Tables
+<pre>
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Table with 3 rows and 3 columns</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td colspan="3">
+        <h1>1</h1>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+        <h1>2</h1>
+      </td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+</pre>
+
+## News Article Webpage
+
+<pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Social Network Signup</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="about">About Me:</label>
+                <textarea id="about" name="about" rows="3" cols="50"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="picture">Profile Picture:</label>
+                <input type="file" id="picture" name="picture">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Join">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+</pre>
+
