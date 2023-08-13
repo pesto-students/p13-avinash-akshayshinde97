@@ -294,6 +294,92 @@ HTML Fundamentals
     </div>
 </body>
 </html>
-
 </pre>
+
+
+## Assignment 3
+## DevTools
+
+
+### Situation: You want to inspect the HTML and CSS code of a webpage.
+### Question: Which panel in Chrome DevTools should you use to inspect the DOM and CSS of a webpage?
+### Answer:
+We can use Elements tab in the inspect which is usually the first default tab there you will find right side html source code and right side you will tabs like style(open by default) for css.
+
+
+### Situation: You suspect that a particular JavaScript function is causing errors on a webpage.
+### Question: Which panel in Chrome DevTools should you use to debug the JavaScript code on a webpage?
+### Answer:
+The Tab: "Sources"
+
+You can select a js file you suspect having error and can use below mentioned features to debug it.
+Features available in the "Sources" panel usefull for debugging:
+
+  -Breakpoints: Set breakpoints to pause execution and inspect the state of the code.
+  -Step through code: Use buttons like "Step Over," "Step Into," and "Step Out" to navigate through the code line by line.
+  -Watch variables: Monitor the values of variables as the code executes.
+  -Console: View and interact with the console output and run arbitrary code snippets.
+  -Call stack: Understand the order in which functions were called and how they relate to each other.
+
+
+### Situation: You want to analyze the network traffic of a webpage and find out which requests are taking the longest time to load.
+### Question: Which panel in Chrome DevTools should you use to analyze the network requests and responses of a webpage?
+### Answer:
+The Tab: "Network" panel.
+Features in Network tab are:-
+- Interact with webpage to record requests (refresh, click links, etc.).
+- View list of requests; sort by slowest loading time in "Time" column.
+- Click a request for details, headers; "Waterfall" chart offers visual timing.
+- Utilize filters, search to focus on specific requests.
+
+
+### Situation: You want to inspect and manipulate browser storage, such as cookies and local storage.
+### Question: Which panel in Chrome DevTools should you use to inspect and manipulate browser storage on a webpage?
+### Answer:
+Tab:- "Application" panel.
+The "Application" panel has sections for different types of storage, such as "Storage," "Cookies," "Cache," etc.
+-"Storage" section:- Can interact with "Local Storage," "Session Storage," "IndexedDB," and other types of storage. Click on an item to view its key-value pairs, also can edit or delete the stored data.
+-"Cookies" section :-The list of cookies associated with the webpage, also view details, search, edit, add, or remove cookies.
+The "Application" panel allows us to clear specific types of storage (e.g., cookies, cache) for the current webpage.
+
+
+### Situation: You want to optimize the performance of a webpage and identify potential bottlenecks.
+### Question: Which panel in Chrome DevTools should you use to analyze the performance of a webpage and identify potential bottlenecks?
+### Answer:
+Tab:- "Performance" panel.
+The  Performance  provides a variety of metrics like:
+
+-Time to First Byte (TTFB): The time it takes for the first byte of the webpage to be received by the browser.
+-DOM Content Loaded (DCL): The time it takes for the DOM to be loaded and parsed by the browser.
+-Load (DOMContentLoaded + Scripts): The time it takes for the DOM and all scripts to be loaded and executed by the browser.
+-First Paint (FP): The time it takes for the first pixel of the webpage to be rendered on the screen.
+-First Contentful Paint (FCP): The time it takes for the first piece of content (e.g., text, image, video) to be rendered on the screen.
+-Speed Index: A metric that measures the perceived performance of a webpage.
+The Performance panel also allows you to see a timeline of all the events that occur during the loading of a webpage.
+
+### Situation: You want to test the security of a webpage and check if it has any vulnerabilities.
+### Question: Which panel in Chrome DevTools should you use to analyze the security of a webpage and identify potential vulnerabilities?
+### Answer:
+Tab:- "Security" panel.
+Shows  loaded webpage's security status, including HTTPS usage and mixed content presence.
+Helps in addressing mixed content problems impacting security and Inspect SSL/TLS certificates for validity and proper configuration.
+
+
+### Situation: You want to view and modify the CSS styles of a webpage in real-time.
+### Question: Which panel in Chrome DevTools should you use to view and modify the CSS styles of a webpage in real-time?
+### Answer:
+Tab:- "Elements" panel.
+This panel will show the HTML and associated CSS,we can directly edit styles, add new ones, or disable/modify existing rules to see instant visual changes on the page.
+
+
+### Situation: You want to test how a webpage looks and behaves on different screen sizes.
+### Question: Which panel in Chrome DevTools should you use to test the responsiveness of a webpage on different screen sizes?
+### Answer:
+Tab:- toggle device toolbar icon.
+
+We can use device dropdown to choose from various presets or define custom screen dimensions.
+Following things can be done:-
+-Responsive Testing: The webpage will be displayed as it would on the selected device/screen size. Adjust the viewport.
+-Test Interaction: Interact with the page, and observe how its layout and content respond to changes in screen dimensions.
+-Rotate and Emulate: You can also test landscape/portrait orientations.
 
